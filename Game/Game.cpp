@@ -162,13 +162,13 @@ void CGame::CreatePlayer(float x, float y)
 	POINT	pos = {};
 
 	m_pDDrawRenderer->BeginCreateSpriteObject(pSprite, 2);
-	m_pDDrawRenderer->CreateSpriteDefaultBitmap(pSprite, L"C:\\dev\\bbb\\Resource\\Player.bmp", NULL, NULL);
+	m_pDDrawRenderer->CreateSpriteDefaultBitmap(pSprite, L"Resource\\Player.bmp", NULL, NULL);
 
 	pos = { 0, 0 };
-	m_pDDrawRenderer->InsertSpriteAnimation(pSprite, L"C:\\dev\\bbb\\Resource\\Player.bmp", &pos, 32, 32, &colorKey, 4, 4, 100, TRUE);
+	m_pDDrawRenderer->InsertSpriteAnimation(pSprite, L"Resource\\Player.bmp", &pos, 32, 32, &colorKey, 4, 4, 100, TRUE);
 
 	pos = { 0, 32 };
-	m_pDDrawRenderer->InsertSpriteAnimation(pSprite, L"C:\\dev\\bbb\\Resource\\Player.bmp", &pos, 32, 32, &colorKey, 6, 4, 100, TRUE);
+	m_pDDrawRenderer->InsertSpriteAnimation(pSprite, L"Resource\\Player.bmp", &pos, 32, 32, &colorKey, 6, 4, 100, TRUE);
 
 	m_pDDrawRenderer->EndCreateSpriteObject(pSprite);
 	m_pDDrawRenderer->SetSpriteAnimation(pSprite, 0, 0);
