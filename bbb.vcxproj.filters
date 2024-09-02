@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{f388e043-1003-4554-a97f-52fffd154c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\DDrawRenderer">
+      <UniqueIdentifier>{4c28d183-3a3f-469b-a548-b86539bef7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\typedef">
+      <UniqueIdentifier>{fe0fd1d1-9a98-45dc-b65e-ce8201044097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{99e7d5d5-5977-4220-999d-a0760a076029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SpriteObject">
+      <UniqueIdentifier>{07fc105e-c33b-424f-8100-9ebcf6bfa1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{188d4a7f-8275-463b-a57a-cc1fbf46e112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Bitmap">
+      <UniqueIdentifier>{a38ad62f-8e65-439d-8b0c-d5e6632a269f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e76163b3-9e0f-4459-9117-446e46d1d033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game">
+      <UniqueIdentifier>{712814bc-0156-4712-b9f0-6e9ad6da4690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{bd96b9b2-9703-49d9-aec3-08e52c18e281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\BitmapManager">
+      <UniqueIdentifier>{2067169c-df89-4a97-9301-badd9b4d8be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TileMap">
+      <UniqueIdentifier>{96e70256-b55f-4b14-962c-53ecdfacf393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{209f67ff-abf7-42fd-8a58-c2d188525052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject">
+      <UniqueIdentifier>{4f6359cc-c5d1-4f3d-8628-65ab7b5450c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\fnGameObjectUpdate">
+      <UniqueIdentifier>{88ae2fac-0e38-4653-9af0-6e92a6887795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\FontManager">
+      <UniqueIdentifier>{d461b467-b566-4197-a7fc-a7eb1f842b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\MMBitmap">
+      <UniqueIdentifier>{af055eaf-1f81-4034-8526-97d7954cd8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameTypedef">
+      <UniqueIdentifier>{32b1ce48-e0ca-4b92-afc4-3aab306b4bbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bbb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>Renderer\typedef</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\LinkedList.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\DDrawRenderer.h">
+      <Filter>Renderer\DDrawRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Bitmap.h">
+      <Filter>Renderer\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteObject.h">
+      <Filter>Renderer\SpriteObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BitmapManager.h">
+      <Filter>Renderer\BitmapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\HashTable.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject.h">
+      <Filter>Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TileMap.h">
+      <Filter>Game\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\mmath.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FnGameObjectUpdate.h">
+      <Filter>Game\fnGameObjectUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\FontManager.h">
+      <Filter>Renderer\FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\MMBitmap.h">
+      <Filter>Renderer\MMBitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameTypedef.h">
+      <Filter>Game\GameTypedef</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\LinkedList.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\DDrawRenderer.cpp">
+      <Filter>Renderer\DDrawRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Bitmap.cpp">
+      <Filter>Renderer\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteObject.cpp">
+      <Filter>Renderer\SpriteObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\HashTable.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BitmapManager.cpp">
+      <Filter>Renderer\BitmapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\mmath.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME\GameObject.cpp">
+      <Filter>Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FnGameObjectUpdate.cpp">
+      <Filter>Game\fnGameObjectUpdate</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\FontManager.cpp">
+      <Filter>Renderer\FontManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bbb.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bbb.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
