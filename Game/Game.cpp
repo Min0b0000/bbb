@@ -289,7 +289,7 @@ void CGame::Render(void)
 			POINT Pos;
 			const float3* pWorld = pGameObject->GetWorldPosition();
 			Pos.x = (LONG)pWorld->x - m_f3CamPosition.x + dwWidthD2;
-			Pos.y = (LONG)pWorld->y + m_f3CamPosition.y + dwHeightD2;
+			Pos.y = -(LONG)pWorld->y + m_f3CamPosition.y + dwHeightD2;
 			m_pDDrawRenderer->RenderSpriteObject(pRenderObject, &Pos);
 		} break;
 		case GAMEOBJ_RENDER_TILEMAP:
