@@ -107,6 +107,7 @@ void CGame::InsertRenderList(CGameObject* pGameObj, float fDepth)
 	if (!m_pRenderSortLinkHead)
 	{
 		LinkToLinkedList(&m_pRenderSortLinkHead, &m_pRenderSortLinkTail, &pGameObj->onRenderLinkNode);
+		return;
 	}
 
 	if (0.5f < fDepth)
